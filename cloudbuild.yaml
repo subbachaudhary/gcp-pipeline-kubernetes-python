@@ -1,7 +1,7 @@
 steps:
   # build the container image
 - name: "gcr.io/cloud-builders/docker"
-  args: ["build", "-t", "gcr.io/subba-personal-project/hello:v1"]
+  args: ["build", "-t", "gcr.io/subba-personal-project/hello:v1", "."]
   # push container image
 - name: "gcr.io/cloud-builders/docker"
   args: ["push", "gcr.io/subba-personal-project/hello:v1"]
