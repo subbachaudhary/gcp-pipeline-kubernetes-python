@@ -13,5 +13,5 @@ steps:
   - --image=gcr.io/subba-personal-project/hello:v1
   - --location=us-central1-c
   - --cluster=cluster-1
-  options:
-   logging: CLOUD_LOGGING_ONLY
+  logging: CLOUD_LOGGING_ONLY
+  
