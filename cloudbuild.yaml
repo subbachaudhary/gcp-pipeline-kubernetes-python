@@ -11,7 +11,7 @@ steps:
   - run
   - --filename=kubernetes-resource-file
   - --image=gcr.io/subba-personal-project/hello:v1
-  -- deployment=/hello:v1
+  - -- deployment=/hello:v1
   - --location=us-central1-c
   - --cluster=cluster-1
 options:
